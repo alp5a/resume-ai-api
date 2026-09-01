@@ -1,83 +1,47 @@
 {
   "personal_info": {
-    "name": "Jordan Avery",
-    "title": "Full-Stack Software Engineer",
-    "location": "Austin, TX",
-    "email": "jordan.avery@example.com",
-    "phone": "+1 (512) 555-0142",
-    "linkedin": "linkedin.com/in/jordanavery",
-    "github": "github.com/jordanavery"
+    "name": "S. M. Mushfique Saleh",
+    "title": "Final-Semester CSE Student",
+    "location": "Chittagong, Bangladesh",
+    "email": "musfiquesaleh21@gmail.com",
+    "phone": "01220361472",
+    "linkedin": "",
+    "github": "github.com/alp5a"
   },
-  "summary": "Full-stack software engineer with 6 years of experience building and shipping web applications and APIs. Comfortable across the stack, from React front ends to Python backends and cloud infrastructure. Enjoys turning ambiguous problems into working products.",
+  "summary": "Final-semester Computer Science and Engineering student at Premier University, building practical skills through personal projects. Interested in software development and eager to apply classroom knowledge to real-world applications.",
   "skills": {
-    "Languages": ["Python", "JavaScript", "TypeScript", "SQL", "Go"],
-    "Frameworks": ["FastAPI", "Django", "React", "Next.js", "Streamlit"],
-    "Tools & Platforms": ["Docker", "AWS", "PostgreSQL", "Redis", "GitHub Actions"],
-    "AI/ML": ["ChromaDB", "sentence-transformers", "LangChain", "OpenAI API"]
+    "PASTE YOUR SKILLS HERE": ["e.g. Python", "JavaScript", "etc."]
   },
-  "experience": [
-    {
-      "title": "Senior Software Engineer",
-      "company": "Northwind Analytics",
-      "location": "Austin, TX",
-      "start_date": "2022-03",
-      "end_date": "Present",
-      "bullets": [
-        "Led the backend rebuild of the core reporting API using FastAPI, cutting median response time by 40%.",
-        "Designed and shipped an internal semantic search tool over company documents using ChromaDB and sentence-transformers.",
-        "Mentored two junior engineers and ran the team's weekly code review sessions."
-      ]
-    },
-    {
-      "title": "Software Engineer",
-      "company": "Beacon Health Tech",
-      "location": "Remote",
-      "start_date": "2019-06",
-      "end_date": "2022-02",
-      "bullets": [
-        "Built patient-facing scheduling features in React and Django serving over 50,000 monthly active users.",
-        "Migrated a monolithic Flask app to a containerized microservice architecture on AWS ECS.",
-        "Introduced automated testing and CI pipelines, raising backend test coverage from 35% to 85%."
-      ]
-    },
-    {
-      "title": "Junior Developer",
-      "company": "Pixel & Pine Studio",
-      "location": "Austin, TX",
-      "start_date": "2018-01",
-      "end_date": "2019-05",
-      "bullets": [
-        "Developed marketing websites and small business web apps for local clients.",
-        "Collaborated with designers to translate Figma mockups into responsive HTML/CSS/JS."
-      ]
-    }
-  ],
+  "experience": [],
   "projects": [
     {
       "name": "Resume AI API",
       "description": "A retrieval-based API that indexes a resume into a vector database and answers natural-language questions about it, with a Streamlit chat frontend.",
-      "technologies": ["FastAPI", "ChromaDB", "sentence-transformers", "Streamlit"]
-    },
-    {
-      "name": "Habit Tracker CLI",
-      "description": "A command-line tool for tracking daily habits with streak calculations and local SQLite storage.",
-      "technologies": ["Python", "SQLite", "Click"]
+      "technologies": ["FastAPI", "ChromaDB", "Streamlit", "Python"]
     }
   ],
   "education": [
     {
-      "degree": "B.S. in Computer Science",
-      "institution": "University of Texas at Austin",
-      "start_date": "2014",
-      "end_date": "2018",
-      "details": "Focus in software engineering and distributed systems."
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "institution": "Premier University",
+      "start_date": "",
+      "end_date": "Present (Final Semester)",
+      "details": ""
+    },
+    {
+      "degree": "Higher Secondary Certificate",
+      "institution": "Chittagong Laboratory College",
+      "start_date": "",
+      "end_date": "",
+      "details": ""
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "institution": "Kalipur E H High School",
+      "start_date": "",
+      "end_date": "",
+      "details": ""
     }
   ],
-  "certifications": [
-    {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "date": "2023"
-    }
-  ]
+  "certifications": []
 }
