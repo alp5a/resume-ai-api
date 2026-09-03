@@ -103,6 +103,35 @@ RESUME_API_URL=http://localhost:8000 streamlit run frontend/streamlit_app.py
 
 - The vector store is in-memory by default (rebuilt on every backend
   restart). Swap `chromadb.Client()` for
+
+
+
+
+
+
+
+
+# 🤖 AI Resume API
+
+An intelligent resume assistant that uses vector embeddings to answer questions about my professional background.
+
+## 🚀 Features
+
+- **Natural Language Queries**: Ask questions like "What's your experience with Python?"
+- **Vector Search**: Uses ChromaDB and sentence transformers for semantic search
+- **Interactive Chat UI**: Beautiful Streamlit frontend
+- **RESTful API**: FastAPI backend with Swagger documentation
+- **Docker Support**: Easy deployment
+
+## 🛠️ Tech Stack
+
+- **Backend**: FastAPI, Python
+- **Vector Database**: ChromaDB
+- **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
+- **Frontend**: Streamlit
+- **Deployment**: Docker
+
+
   `chromadb.PersistentClient(path="./chroma_db")` in `app/database.py` if you
   want it to persist between runs.
 - Answers are extractive (built from the best-matching resume chunk(s)),
