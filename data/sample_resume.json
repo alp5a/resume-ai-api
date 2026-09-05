@@ -18,6 +18,9 @@
       "name": "Resume AI API",
       "description": "A retrieval-based API that indexes a resume into a vector database and answers natural-language questions about it, with a Streamlit chat frontend.",
       "technologies": ["FastAPI", "ChromaDB", "Streamlit", "Python"]
+      "name": "offline weather app"
+      "description": "An offline-first weather project styled like an analog instrument panel."
+      "technologies":
     }
   ],
   "education": [
